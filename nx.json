@@ -75,8 +75,7 @@
     "docker": { "skipVersionActions": true }
   },
   "targetDefaults": {
-    "e2e-ci--**/**": {
-    },
+    "e2e-ci--**/**": {},
     "test": { "dependsOn": ["^build"] },
     "@nx/esbuild:esbuild": {
       "cache": true,
@@ -106,5 +105,6 @@
     }
   },
   "bust": 1,
-  "nxCloudId": "68d57a344484f16add8417db"
+  "nxCloudId": "68d575850fe9ac9cce445006",
+  "nxCloudUrl": "https://snapshot.nx.app"
 }
